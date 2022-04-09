@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+/*background*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #D3D3D3;
+}
+
+li, a, button {
+    font-family: "Open+Sans";
+    font-weight: 300;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+header{ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1%;
+}
+/*checkout*/
+button {
+    background-color:#ECECEC;
+    padding: 50px 50px;
+    cursor:pointer;
+}
+
+/*logo*/
+.legologo {
+    position:relative;
+    margin-top: 20px;
+    margin-left:0px;
+    cursor:pointer;
+    height: 200px;
+    width: 300px;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 100px;
+}
+
+.nav-link li {
+    transition: all 0.5s ease 0s;
+
+}
+
+.nav-link li a:hover {
+    color: #FFFF00;
+}
+
+.nav-link {
+    width: 100%;
+    background-color:#FFFF00;
+    overflow:hidden;
+}
+    
+    
