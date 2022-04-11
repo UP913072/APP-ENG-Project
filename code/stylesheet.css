@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #D3D3D3;
+    background-color: #efdddf;
 }
 
 li, a, button {
@@ -23,6 +23,7 @@ header{
     align-items: center;
     padding: 10px 1%;
 }
+
 /*checkout*/
 button {
     background-color:#ECECEC;
@@ -52,4 +53,19 @@ button {
 /* interactive hover */
 .nav-link li a:hover {
     color: #FFFF00;
+}
+
+.bonsaiIMG {
+display:block;
+margin-left: auto;
+margin-right: auto;
+height: 600px;
+width: 600px;
+}
+
+.FindOutbtn {
+    display:block;
+margin-left: auto;
+margin-right: auto;
+background-color:#FFA500;
 }
