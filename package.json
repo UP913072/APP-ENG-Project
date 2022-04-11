@@ -12,5 +12,8 @@
     "eslint": "^8.13.0",
     "eslint-config-portsoc": "^1.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
