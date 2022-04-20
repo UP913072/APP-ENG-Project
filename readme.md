@@ -24,4 +24,6 @@
 
 ### Referencing
 
-- bonsai.png (https://brickset.com/)
+- bonsai.png = (https://brickset.com/)
+
+- Checkout and server inspired = (https://www.youtube.com/watch?v=UcrypywtAm0&ab_channel=CodeExplained)
