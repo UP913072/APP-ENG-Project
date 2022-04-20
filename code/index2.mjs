@@ -13,7 +13,7 @@ function postItems(itemsjson) {
   for (let i = 0; i < itemsjson.length; i++) {
     const image = document.createElement('img');
     image.src = itemsjson[i].img;
-    console.log("test");
+    console.log('test');
     imgPlaceholder.append(image);
   }
   postItems();
