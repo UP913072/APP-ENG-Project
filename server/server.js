@@ -1,12 +1,12 @@
 /* server render: https://www.youtube.com/watch?v=U55XCQNCdcE&list=PLeh2GWv22bmSkMEpSv5Wme56XVpKG1Tr5&index=6&ab_channel=CodingwithBasir */
 import data from '../app.js';
-const browseScreen = {
-  render: () =>{
-    const {product} = data;
+const server = {
+  render: () => {
+    const { product } = data;
     return `
     <ul class="products">
-    ${products.map( 
-      product) =>`
+    ${product.map(
+      (product) => `
     <li>
     <div class="product">
                         <a href="/#/product/${product._id}">
@@ -22,7 +22,9 @@ const browseScreen = {
                     </div>
     </li>
 
-    `
-    }
-  }
-
+    `,
+    )}
+    `;
+  },
+};
+export default server;
