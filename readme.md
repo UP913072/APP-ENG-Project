@@ -25,3 +25,14 @@
 ### Referencing
 
 - bonsai.png (https://brickset.com/)
+
+
+
+
+
+instructions for ken:
+
+either follow through with:  https://www.youtube.com/watch?v=U55XCQNCdcE&list=PLeh2GWv22bmSkMEpSv5Wme56XVpKG1Tr5&index=6&ab_channel=CodingwithBasir
+
+
+or use first video: https://www.youtube.com/watch?v=UcrypywtAm0
