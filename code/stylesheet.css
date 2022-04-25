@@ -121,3 +121,39 @@ a:hover{
     
 }
 
+.image{
+    width: 15em;
+    height: 10em;
+}
+
+.products {
+    padding: 4rem;
+}
+.products-center {
+    display: flex;
+    width: 30em;
+    align-items: center;
+}
+#imgPlaceholder {
+    display: flex;
+    align-items: center;
+    width: 40em;
+    height: 10em;
+}
+/* 
+#productblock {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1px;
+  border-color: #DCDBDB;
+}
+*/
+
+/* Add borders to seperate each item from eachother */ 
+.image { 
+    border-style: solid;
+  border-width: 1px;
+  border-radius: 1px;
+  border-color: #DCDBDB;
+}
+
