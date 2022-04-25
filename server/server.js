@@ -1,5 +1,5 @@
 import express from 'express';
-/*import res from 'express/lib/response'; */
+
 import { items } from '../code/data.mjs';
 
 const app = express();

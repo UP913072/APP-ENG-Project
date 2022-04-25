@@ -149,6 +149,13 @@ a:hover{
 }
 */
 
+/* price for products */
+.product-price {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
 /* Add borders to seperate each item from eachother */ 
 .image { 
     border-style: solid;
@@ -156,4 +163,5 @@ a:hover{
   border-radius: 1px;
   border-color: #DCDBDB;
 }
+
 
