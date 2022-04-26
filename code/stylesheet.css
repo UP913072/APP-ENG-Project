@@ -126,34 +126,11 @@ a:hover{
     height: 10em;
 }
 
-.products {
-    padding: 4rem;
-}
-.products-center {
-    display: flex;
-    width: 30em;
-    align-items: center;
-}
 #imgPlaceholder {
     display: flex;
     align-items: center;
     width: 40em;
     height: 10em;
-}
-/* 
-#productblock {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 1px;
-  border-color: #DCDBDB;
-}
-*/
-
-/* price for products */
-.product-price {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
 }
 
 /* Add borders to seperate each item from eachother */ 
@@ -164,4 +141,27 @@ a:hover{
   border-color: #DCDBDB;
 }
 
+/* product */
+#productfolder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: fit-content;
+    justify-content: center;
+    margin-left: 17.5em;
 
+}
+
+.singleproductholder {
+    margin: 1em;
+    
+}
+
+.namepriceholder {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    margin-right: 0.5em;
+}
