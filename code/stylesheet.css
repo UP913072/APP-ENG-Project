@@ -84,13 +84,15 @@ a:hover{
     color: #FFA500;
 }
 
-.products {
+.productborder {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
     margin: 0;
     justify-content: center;
+    padding: 4rem 0;
+    background-color: #A9A9A9;    
 
 }
 
@@ -108,6 +110,15 @@ a:hover{
     height: 40rem;
     border-top: 0.3rem #000000 solid; 
 
+}
+
+
+.section-title h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
 }
 
 .product-name{
@@ -164,4 +175,9 @@ a:hover{
 
 .name {
     margin-right: 0.5em;
+}
+
+/* h fonts */
+.h1 {
+    
 }
