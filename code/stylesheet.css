@@ -96,6 +96,17 @@ a:hover{
 
 }
 
+.bonsaiborder {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    padding: 4rem 0;
+    background-color: #F79AC0;    
+
+}
 .product img{
     max-width: 20rem;
     max-height: 22rem;
@@ -177,7 +188,16 @@ a:hover{
     margin-right: 0.5em;
 }
 
-/* h fonts */
-.h1 {
-    
+.video-border {
+    width: 100%; max-width: 800px;
+    margin: 12.5em auto;
 }
+
+
+/* youtube video*/
+.video-container {
+width: 100%;
+max-width: 100%;
+}
+
+
