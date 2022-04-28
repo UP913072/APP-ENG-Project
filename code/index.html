@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module"></script>
-    <title>LEGO SITE Homepage</title>
+    <!-- async will continue to download body -->
+    <script type="module" src="index2.mjs" async></script>
+    <title>LEGO Browse menu</title>
+    <link rel="icon" type="image/png" href="images/legomain.png">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -13,35 +15,33 @@
     <div class="background-image"></div>
     
     <header>
-        <a href="index.html"></a>
-        <img class="legologo" src="images/legologo.png">
+        
+      <a href="index.html">
+        <img class="legologo" src="images/legologo2.png">
+        </a>
         <nav>
             <ul class="nav-link">
-                <li><a href="Browse.html">Browse</a></li>
+                <li><a href="index.html">Browse</a></li>
                 <li><a href="Bonsai.html">Bonsai</a></li>
-                <li><a href="#">Log-in</a></li>
-                
-                
             </ul>
         </nav>
         <a class="cta" href="#"><button>Checkout</button></a>
     </header>
+    <section class="productborder">
+    <div class="section-title"></div>
+    <img class="browsesubtitle" img src="images/browsesubtext.png">
+</section>
+</div>
 
-<!-- to be able to scroll on pages and see items -->
-    <div class="Bonsaihome">
-        <div class="BonsaiHP">
-        <img src="images/bonsaiTransparent.png" class="bonsaiIMG">
-        <div class="BonsaiBG"></div>
-        <!--<a href="browse.html" class="FindOutbtn">Find out more</a> -->
-         <button class="FindOutbtn">APRIL: MONTHLY SPECIAL</button> 
-      
-
+        <div>
+            <!-- products container, where all the items will be-->
+            <!-- <div class="products-center">  -->
+                <div id="productfolder">
     </div>
+    </main>
 
-    <div id="imgPlaceholder">
 
-    </div>
-
-    
 </body>
+
+
 </html>

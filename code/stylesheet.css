@@ -92,7 +92,7 @@ a:hover{
     margin: 0;
     justify-content: center;
     padding: 4rem 0;
-    background-color: #A9A9A9;    
+    background-color: #4adede;    
 
 }
 
@@ -133,7 +133,7 @@ a:hover{
 }
 /* remove white border around text for browse and bonsai page */
 .browsesubtitle {
-    background-color: #A9A9A9;
+    background-color: #4adede;
 }
 
 .bonsaisubtitle {
