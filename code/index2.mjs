@@ -39,5 +39,3 @@ function postItems(itemsjson) {
 }
 
 fetchShopItems();
-
-
