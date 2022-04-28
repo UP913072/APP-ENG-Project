@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
 
 /*background*/
 * {
@@ -9,7 +9,7 @@
 }
 
 li, a, button {
-    font-family: "Open+Sans";
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
     font-size: 30px;
     font-weight: bold;
@@ -131,6 +131,14 @@ a:hover{
     text-transform: capitalize;
     letter-spacing: var(--mainSpacing);
 }
+/* remove white border around text for browse and bonsai page */
+.browsesubtitle {
+    background-color: #A9A9A9;
+}
+
+.bonsaisubtitle {
+    background-color: #F79AC0;
+}
 
 .product-name{
     line-height: 2rem;
@@ -198,5 +206,3 @@ a:hover{
 width: 100%;
 max-width: 100%;
 }
-
-
