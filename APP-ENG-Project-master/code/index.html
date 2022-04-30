@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- async will continue to download body -->
-    <script type="module" src="index2.mjs" async></script>
+    <script type="module" src="index2.mjs" defer async></script>
     <title>LEGO Browse menu</title>
     <link rel="icon" type="image/png" href="images/legomain.png">
     <link rel="stylesheet" href="stylesheet.css">
@@ -25,17 +24,40 @@
                 <li><a href="Bonsai.html">Bonsai</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button>Checkout</button></a>
+        <a class="cta" href="#"><button>Basket</button></a>
     </header>
     <section class="productborder">
     <div class="section-title"></div>
     <img class="browsesubtitle" img src="images/browsesubtext.png">
 </section>
 </div>
-
-        <div>
+        
+        <div style="display: flex;">
             <!-- Here we will render items for browse page (from data.mjs) -->
                 <div id="productfolder">
+                   
+    </div>
+
+    <div class="cart">
+        <div class="cart-header">
+            <div class="column1">Item</div>
+            <div class="column2">Unit price</div>
+            <div class="column3">Units</div>
+        </div>
+        <div class="cart-items">
+            <!-- render cart items here -->
+            <div class="cart-item">
+             
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="subtotal">
+                Subtotal (0 items): £0
+            </div>
+            <div class="checkout">
+                Proceed to checkout
+            </div>
+        </div>
     </div>
     </main>
 
